@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="food.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body>
+    <div class="nav">                    
+        <h1 class="navhead"><ion-icon name="fast-food-outline"></ion-icon> Food Court</h1>
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="#menu">Menus</a> </li>
+            <li><a href="">Contact</a></li>
+
+        </ul>
+        <div class="cart">
+            <span class="count">0</span>
+            <ion-icon name="cart" id="carticon"></ion-icon>
+        </div>
+    </div>
+
+    <div class="addcart ">
+
+        <div class="addheading">
+            <h2>cart items</h2>
+        </div>
+        <div class="additem">
+       <!--  <div class="addbox">
+            <div class="addimg"><img src="img1.jpg" alt="" height="70px" width="90px"></div>
+            <div class="foodname">
+                <h3 class="foodtitle">Salad</h3>
+                <div class="addprice">
+                    <div class="cartprice">Rs.200</div>
+                    <div class="cartamt">Rs.200</div>
+                </div>
+                <div class="addinput">
+                    <input type="number" value="1" class="input">
+
+                </div>
+            </div>
+
+            <ion-icon name="trash-sharp" id="delete"></ion-icon>
+        </div>
+        <div class="addbox">
+
+            <div class="addimg"><img src="img1.jpg" alt="" height="70px" width="90px"></div>
+            <div class="foodname">
+                <h3>salad</h3>
+                <div class="addprice">
+                    <div>rs.200</div>
+                    <div>rs.200</div>
+                </div>
+                <div class="addinput">
+                    <input type="number" value="1" class="input">
+
+                </div>
+            </div>
+            <ion-icon name="trash-sharp" id="delete"></ion-icon>
+        </div> -->
+    </div>
+        <div class="totaladder">
+        <div class="button"><button>Place Order</button></div>
+        <div class="total">
+            <h4>total :</h4>
+            <h4>0</h4>
+        </div>
+        <ion-icon name="close-sharp" id="close"></ion-icon>
+    </div>
+        
+    </div>
+
+    <div class="home" id="home">
+        <div class="home-content">
+            <h1 class="home-head">Welcome to Food Court</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore dolore mollitia asperiores!
+                Minima
+                officiis blanditiis corporis, impedit ex vitae autem ipsum repellendus iusto, tempora corrupti,
+                accusantium
+                ad quas. Modi, consequatur!</p>
+            <a href="">Contact <ion-icon name="arrow-down"></ion-icon></a>
+        </div>
+        <div class="img">
+            <img src="home.jpg" alt="" height="350px">
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 id="menu">Our Menu</h1>
+        <div class="food-box">
+            <div class="cards">
+                <div>
+                    <img src="img1.jpg" alt="" class="card-img">
+                </div>
+                <h2 class="card-title">Salad</h2>
+                <span class="card-price">Rs.200</span>
+                <ion-icon name="cart" id="cardbtn"></ion-icon>
+            </div>
+            <div class="cards">
+                <div>
+                    <img src="img2.jpg" alt="" class="card-img">
+                </div>
+                
+                <h2 class="card-title" >Pan Cake</h2>
+                <span class="card-price">Rs.500</span>
+                <ion-icon name="cart" id="cardbtn"></ion-icon>
+            </div>
+            <div class="cards">
+                <div>
+                    <img src="img3.jpg" alt="" class="card-img">
+                </div>
+                
+                <h2 class="card-title">Fish Fry</h2>
+                <span class="card-price">Rs.180</span>
+                <ion-icon name="cart" id="cardbtn"></ion-icon>
+            </div>
+            <div class="cards">
+                <div>
+                    <img src="img4.jpg" alt="" class="card-img">
+                </div>
+                <h2 class="card-title">Chicken Noddles</h2>
+                <span class="card-price">Rs.150</span>
+                <ion-icon name="cart" id="cardbtn"></ion-icon>
+            </div>
+            <div class="cards">
+                <div>
+                    <img src="img5.jpg" alt="" class="card-img">
+                </div>
+                <h2 class="card-title">Burgur</h2>
+                <span class="card-price">Rs.300</span>
+                <ion-icon name="cart" id="cardbtn"></ion-icon>
+            </div>
+            <div class="cards">
+                <div>
+                    <img src="img6.jpg" alt="" class="card-img">
+                </div>
+                <h2 class="card-title">Beef</h2>
+                <span class="card-price">Rs.250</span>
+                <ion-icon name="cart" id="cardbtn"></ion-icon>
+            </div>
+            <div class="cards">
+                <div>
+                    <img src="img1.jpg" alt="" class="card-img">
+                </div>
+                <h2 class="card-title">French Fries</h2>
+                <span class="card-price">Rs.100</span>
+                <ion-icon name="cart" id="cardbtn"></ion-icon>
+            </div>
+            <div class="cards">
+                <div>
+                    <img src="home.jpg" alt="" class="card-img">
+                </div>
+                <h2 class="card-title">salad</h2>
+                <span class="card-price">Rs.200</span>
+                <ion-icon name="cart" id="cardbtn"></ion-icon>
+            </div>
+        </div>
+    </div>
+
+    <script src="food.js"></script>
+    
+</body>
+
+</html>
